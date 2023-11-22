@@ -7,6 +7,9 @@ public class SnakeAndLadder {
         //Player 1 starts from zero
         int playerOnePosition=0;
 
+        //diceRoll between 1 and 6
+        int diceRoll=(int)(Math.random()*10)%6 +1;
 
+        
         }
     }
