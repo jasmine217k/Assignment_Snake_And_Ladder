@@ -9,7 +9,7 @@ public class SnakeAndLadder {
 
 
 
-        while(playerOnePosition <100) {
+        while(playerOnePosition !=100) {
 
             //diceRoll between 1 and 6
             int diceRoll=(int)(Math.random()*10)%6 +1;
@@ -28,6 +28,8 @@ public class SnakeAndLadder {
             }
             else {
                 playerOnePosition+=diceRoll;
+                if(playerOnePosition >100)
+                    playerOnePosition-=diceRoll;
             }
             
         }
