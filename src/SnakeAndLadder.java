@@ -10,6 +10,9 @@ public class SnakeAndLadder {
         //diceRoll between 1 and 6
         int diceRoll=(int)(Math.random()*10)%6 +1;
 
+        //Get options between noPlay, Snake and Ladder
+        int option=(int)(Math.random()*10)%3;
+
         
         }
     }
